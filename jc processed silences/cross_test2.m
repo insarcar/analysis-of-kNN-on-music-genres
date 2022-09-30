@@ -1,0 +1,12 @@
+disp("kNN test for spectral centroid: ");
+test_feature(C1, C5, C6, C4, C2, C3);
+disp("kNN test for spectral spread: ");
+test_feature(S1, S5, S6, S4, S2, S3);
+disp("kNN test for spectral rolloff: ");
+test_feature(R1, R5, R6, R4, R2, R3);
+disp("kNN test for mfccs: ");
+test_feature(ceps1, ceps5, ceps6, ceps4, ceps2, ceps3);
+disp("kNN test for zcr: ");
+test_feature(Z1, Z5, Z6, Z4, Z2, Z3);
+disp("kNN test for energy: ");
+test_feature(E1, E5, E6, E4, E2, E3);
